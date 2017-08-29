@@ -2,10 +2,9 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-  instructions: ""
+  instructions: "happy coocking ",
 
-
-}
+};
 var recipe2 = {
   name: "khalid",
   food: "chapati",
@@ -15,21 +14,21 @@ var recipe2 = {
 };
 var recipe3 = {
   name: "esther",
-  food: "chapati",
+  food: "fluffy-pancakes",
   image:"img/",
-  instructions: ""
+  instructions: "eat some sanck",
 };
 var recipe4 = {
   name: "granton",
   image:"img/",
-  food: "chapati",
-  instructions: "",
+  food: "grilled-lemon-herb",
+  instructions: "cook it!",
 
 };
 var recipe5 = {
   name: "kanja",
   image:"img/",
-  food: "chapati",
+  food: "",
   instructions: ""
 };
 
@@ -43,21 +42,50 @@ $(document).ready(function(){
     $(".thumbnail p.food").text(foodObj.food);
     $(".thumbnail p.instructions").text(foodObj.instructions);
 
-$(document).ready(function()){
 
-}
-   $(".button-nelly").click(function(event)){
+
+
+  });
+
+
+});
+
+$(document).ready(function(){
+  $(".button-nelly").click(function(event) {
     event.preventDefault()
-    var foodObj2 = foods[0];
-   $(".thumbnail p.food").text(foodObj.food);
-    $(".thumbnail p.instructions").text(foodObj.instructions)
-  }
-
+    var foodObj = foods[0];
+    $(".thumbnail p.foods").text(foodObj.food);
+    $(".thumbnail p.instruction").text(foodObj.instructions);
 
 
 
 
   });
+
+
+});
+
+$(document).ready(function(){
+  $(".button-esther").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[2];
+    $(".thumbnail p.snack").text(foodObj.food);
+    $(".thumbnail p.lunch").text(foodObj.instructions);
+  });
+
+
+
+});
+
+
+$(document).ready(function(){
+  $(".button-grantone").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[3];
+    $(".thumbnail p.dinner").text(foodObj.food);
+    $(".thumbnail p.junk").text(foodObj.instructions);
+  });
+
 
 
 });
