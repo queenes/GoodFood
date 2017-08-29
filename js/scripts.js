@@ -24,9 +24,10 @@ var recipes =[recipe1, recipe2, recipe3, recipe4, recipe5]
 
 $(document).ready(function(){
   $("button-nelly").click(function();
+}
   //event.preventDefault()
-  var foodObj =foods[0];
-  $(".nelly.food").text(foodObj.food);
+  var foodObj = foods[0];
+  $(".nelly .food").text(foodObj.food);
   $("nelly .instructions").text(foodObj.instructions);
   for (var i = 0; i < food.length; i++) {
     food[0]
