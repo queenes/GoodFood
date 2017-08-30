@@ -28,11 +28,6 @@ var recipe4 = {
 
 };
 
-  food: "grilled-lemon-herb",
-  instructions: "cook it!",
-
-};
-
 
 
 var foods = [recipe1,recipe2,recipe3,recipe4];
