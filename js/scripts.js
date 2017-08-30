@@ -1,36 +1,93 @@
-var resipe1 = { name:"nelly";
-image:"image(img/breakfast1.jpg)";
-instruction: ""
+var recipe1 = {
+  name: "nelly",
+  food: "kimchi-fried-rice",
+  image:"assets/img/kimchi-fried-rice.jpg",
+  instructions: "happy coocking ",
 
-}
-var resipe2 = { name:"khalid";
-image:"image(chapati.jpg)";
-instruction: ""
-}
-var resipe3 = { name:"esther";
-image:"image(chapati.jpg)";
-instruction: ""
-}
-var resipe4 = { name:"granton";
-image:"image(chapati.jpg)";
-instruction: ""
-}
-var resipe5 = { name:"kanja";
-image:"image(chapati.jpg)";
-instruction: ""
-}
+};
+var recipe2 = {
+  name: "khalid",
+  food: "chapati",
+  image: "images/chapti.jpg",
+  instructions: "ingredients: Serves:4  125g wholewhweatflour 1pinch salt  1 tablespoon olive oil 60ml water;     Method: prep:10minj Readyadyin:12min. " ,
 
-var recipes =[recipe1, recipe2, recipe3, recipe4, recipe5]
+};
+var recipe3 = {
+  name: "esther",
+  food: "fluffy-pancakes",
+  image:"img/",
+  instructions: "eat some sanck",
+};
+var recipe4 = {
+  name: "granton",
+  image:"img/",
+  food: "grilled chicken-lemon-herb",
+  instructions: "in oder to cook it you need, bone-in, skin-on chicken pieces (breasts, legs, and/or thighs), about 2 lbs.",
+
+
+};
+
+var recipe5 = {
+  name: "kanja",
+  image:"img/",
+  food: "",
+  instructions: ""
+};
+
+var foods = [recipe1,recipe2,recipe3,recipe4,recipe5];
+
 
 $(document).ready(function(){
-  $("button-nelly").click(function();
-}
-  //event.preventDefault()
-  var foodObj = foods[0];
-  $(".nelly .food").text(foodObj.food);
-  $("nelly .instructions").text(foodObj.instructions);
-  for (var i = 0; i < food.length; i++) {
-    food[0]
-  }
+  $(".button-khalid").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[1];
+    $(".thumbnail p.food").text(foodObj.food);
+    $(".thumbnail p.instructions").text(foodObj.instructions);
+
+
+
+
+  });
+
+
 });
-}
+
+$(document).ready(function(){
+  $(".button-nelly").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[0];
+    $(".thumbnail p.foods").text(foodObj.food);
+    $(".thumbnail p.instruction").text(foodObj.instructions);
+
+
+
+
+  });
+
+
+});
+
+$(document).ready(function(){
+  $(".button-esther").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[2];
+    $(".thumbnail p.snack").text(foodObj.food);
+    $(".thumbnail p.lunch").text(foodObj.instructions);
+  });
+
+
+
+});
+
+
+$(document).ready(function(){
+  $(".button-grantone").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[3];
+    $(".thumbnail p.dinner").text(foodObj.food);
+    $(".thumbnail p.junk").text(foodObj.instructions);
+  });
+
+
+
+});
