@@ -22,7 +22,6 @@ var recipe3 = {
 var recipe4 = {
   name: "granton",
   image:"img/",
-<<<<<<< HEAD
   food: "grilled chicken-lemon-herb",
   instructions: "in oder to cook it you need, bone-in, skin-on chicken pieces (breasts, legs, and/or thighs), about 2 lbs.",
 
