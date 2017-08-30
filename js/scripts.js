@@ -2,7 +2,8 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-  instructions: "happy coocking ",
+
+  instructions: "happy cooking ",
 
 };
 var recipe2 = {
@@ -16,15 +17,23 @@ var recipe3 = {
   name: "esther",
   food: "fluffy-pancakes",
   image:"img/",
-  instructions: "eat some sanck",
+  instructions: "eat some snack",
 };
 var recipe4 = {
   name: "granton",
   image:"img/",
+<<<<<<< HEAD
+  food: "grilled chicken-lemon-herb",
+  instructions: "in oder to cook it you need, bone-in, skin-on chicken pieces (breasts, legs, and/or thighs), about 2 lbs.",
+
+
+};
+
   food: "grilled-lemon-herb",
   instructions: "cook it!",
 
 };
+
 var recipe5 = {
   name: "kanja",
   image:"img/",
@@ -34,6 +43,24 @@ var recipe5 = {
 
 var foods = [recipe1,recipe2,recipe3,recipe4,recipe5];
 
+
+
+$(document).ready(function(){
+  $(".button-khalid").click(function(event) {
+    event.preventDefault()
+    var foodObj = foods[1];
+    $(".thumbnail p.food").text(foodObj.food);
+    $(".thumbnail p.instructions").text(foodObj.instructions);
+
+
+
+
+  });
+
+
+});
+
+$(document).ready(function(){
 
 $(document).ready(function(){
   $(".button-khalid").click(function(event) {
@@ -89,4 +116,13 @@ $(document).ready(function(){
 
 
 });
-©
+
+$(document).ready(function() {
+  $("form#subscribe_form").submit(function(event) {
+    event.preventDefault();
+    var emailAddress = $("#subscribe_form_input").val();
+    var notification = emailAddress + " has been successfully added to our email list. Thank you!";
+    $("#email-output").text(notification)
+  });
+
+});
