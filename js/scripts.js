@@ -34,14 +34,9 @@ var recipe4 = {
 
 };
 
-var recipe5 = {
-  name: "kanja",
-  image:"img/",
-  food: "",
-  instructions: ""
-};
 
-var foods = [recipe1,recipe2,recipe3,recipe4,recipe5];
+
+var foods = [recipe1,recipe2,recipe3,recipe4];
 
 
 
