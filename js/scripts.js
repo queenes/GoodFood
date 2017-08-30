@@ -2,7 +2,6 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-
   instructions: "happy cooking ",
 
 };
@@ -22,16 +21,18 @@ var recipe3 = {
 var recipe4 = {
   name: "granton",
   image:"img/",
-  food: "grilled chicken-lemon-herb",
-  instructions: "in oder to cook it you need, bone-in, skin-on chicken pieces (breasts, legs, and/or thighs), about 2 lbs.",
-
+  food: "grilled-lemon-herb",
+  instructions: "cook it!",
 
 };
+var recipe5 = {
+  name: "kanja",
+  image:"img/",
+  food: "",
+  instructions: ""
+};
 
-
-
-var foods = [recipe1,recipe2,recipe3,recipe4];
-
+var foods = [recipe1,recipe2,recipe3,recipe4,recipe5];
 
 
 $(document).ready(function(){
@@ -44,24 +45,7 @@ $(document).ready(function(){
 
 
 
-  });
-
-
-});
-
-$(document).ready(function(){
-
-$(document).ready(function(){
-  $(".button-khalid").click(function(event) {
-    event.preventDefault()
-    var foodObj = foods[1];
-    $(".thumbnail p.food").text(foodObj.food);
-    $(".thumbnail p.instructions").text(foodObj.instructions);
-
-
-
-
-  });
+ });
 
 
 });
@@ -76,7 +60,7 @@ $(document).ready(function(){
 
 
 
-  });
+ });
 
 
 });
