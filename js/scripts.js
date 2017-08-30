@@ -2,7 +2,7 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-  instructions: "happy coocking ",
+  instructions: "happy cooking ",
 
 };
 var recipe2 = {
@@ -16,7 +16,7 @@ var recipe3 = {
   name: "esther",
   food: "fluffy-pancakes",
   image:"img/",
-  instructions: "eat some sanck",
+  instructions: "eat some snack",
 };
 var recipe4 = {
   name: "granton",

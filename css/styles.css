@@ -77,3 +77,7 @@ li a {
 .item {
   padding: 0px;
 }
+
+.glyphicon-search {
+  float: right;
+}
