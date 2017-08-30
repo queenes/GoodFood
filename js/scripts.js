@@ -2,15 +2,8 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-<<<<<<< HEAD
+
   instructions: "happy cooking ",
-=======
-<<<<<<< HEAD
-  instructions: "happy coocking",
-=======
-  instructions: "happy coocking ",
->>>>>>> 18638501075d5c5e1db7fababc16141ffb552fa6
->>>>>>> 508472b059d1deeb0f3d82d1cab28212b28c893f
 
 };
 var recipe2 = {
@@ -36,12 +29,11 @@ var recipe4 = {
 
 };
 
-=======
   food: "grilled-lemon-herb",
   instructions: "cook it!",
 
 };
->>>>>>> 18638501075d5c5e1db7fababc16141ffb552fa6
+
 var recipe5 = {
   name: "kanja",
   image:"img/",
@@ -51,7 +43,7 @@ var recipe5 = {
 
 var foods = [recipe1,recipe2,recipe3,recipe4,recipe5];
 
-<<<<<<< HEAD
+
 
 $(document).ready(function(){
   $(".button-khalid").click(function(event) {
@@ -69,7 +61,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-=======
 
 $(document).ready(function(){
   $(".button-khalid").click(function(event) {
@@ -87,7 +78,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
->>>>>>> 18638501075d5c5e1db7fababc16141ffb552fa6
   $(".button-nelly").click(function(event) {
     event.preventDefault()
     var foodObj = foods[0];
@@ -126,7 +116,6 @@ $(document).ready(function(){
 
 
 });
-<<<<<<< HEAD
 
 $(document).ready(function() {
   $("form#subscribe_form").submit(function(event) {
@@ -137,9 +126,3 @@ $(document).ready(function() {
   });
 
 });
-=======
-<<<<<<< HEAD
-=======
-©
->>>>>>> 18638501075d5c5e1db7fababc16141ffb552fa6
->>>>>>> 508472b059d1deeb0f3d82d1cab28212b28c893f
