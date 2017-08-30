@@ -1,82 +1,106 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
+
+
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
   <title>Good Food</title>
 </head>
-<body>
+
+<body class="noScroll">
   <div class="container">
-    <div class="container-header">
-      <div class="header">
-        <div class="menu">
-          <div class="menu-btn">
-            <a href="#" class="menu-button" id="activator"><img src="" alt=""/></a>
-          </div>
-          <div class="menulist">
-            <div class="col-md-3"><a href="#" class="scroll">Home</a></div>
-            <div class="col-md-3"><a href="#" class="scroll">Recipes</a></div>
-            <div class="col-md-3"><a href="#" class="scroll">Recipe of the Day</a></div>
-            <div class="col-md-3"><a href="#" class="scroll">Contact Us</a></div>
-          </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand" id="activator"><img src="image/menulist.png" alt=""/>Good Food</a>
         </div>
-        <div class="logo">
-          <img src="">
-          <h1>Good Food</h1>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" class="scroll">Home</a></li>
+          <li><a href="#" class="scroll">Recipes</a></li>
+          <li><a href="#" class="scroll">Recipe of the Day</a></li>
+          <li><a href="#" class="scroll">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="bg" class="starter_container">
+      <div class="follow_container">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="top-title"> Good Food</h2>
+          <h2 class="white second-title">For The Best Recipes In Town!</h2>
         </div>
       </div>
     </div>
-    <div class="container-description">
-      <p>Welcome to Good Food!</p>
-      <p>Don't know what meal to make? No problem! Get ideas from our 'Popular Recipes' or search our recipes for any ingredient(s) you have in mind.</p>
-      <p>Bon Appétit!</p>
-    </div>
-    <div class="container-body">
-      <a href="#"><button class="btn btn-primary">POPULAR RECIPES</button></a>
-      <a href="#"><button class="button button-search">Search</button></a>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="nelly">
-            <img src="">
-            <p>Nelly's Recipe</p>
-            <a href="#"><button class="button button-nelly">nelly</button></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="khalid">
-            <img src="">
-            <p>Khalid's Recipe</p>
-            <a href="#"><button class="button button-khalid">khalid</button></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="esther">
-            <img src="">
-            <p>Esther's Recipe</p>
-            <a href="#"><button class="button button-esther">esther</button></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="grantone">
-            <img src="">
-            <p>Grantone's Recipe</p>
-            <a href="#"><button class="button button-grantone">grantone</button></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="kanja">
-            <img src="">
-            <p>Kanja's Recipe</p>
-            <a href="#"><button class="button button-kanja">kanja</button></a>
-          </div>
-        </div>
-      </div>
+  </div>
+
+
+  <section id="story" class="description_content">
+    <div class="text-content container">
       <div class="col-md-12">
+
+        <div class="col-md-6">
+          <h1>Welcome to Good Food</h1>
+        </div><br>
+        <div class="col-md-6">
+          <input type="text" name="search" placeholder="Search.." style="float:right;">
+        </div>
+      </div>
+      <p class="desc-text">Don't know what meal to make? No problem! Get ideas from
+        'Our Popular Recipes' or search our recipes for any ingredient(s) you have in mind.
+         Good food offers you a wide variety of recipes to choose from that are easy and quick to make.
+          Simple is the name of the game.
+        Make 5 star restaurant meals in the heart of your kitchen with <em>Good Food!</em> Bon Appétit!</p>
+    </div>
+  </section>
+
+  <div class="container mid-body">
+    <a href="#"><button class="btn btn-primary">POPULAR RECIPES</button></a>
+    <a href="#"><button class="button button-search">Search</button></a>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/kimchi-fried-rice.jpg" alt="">
+          <a href="#"><button class="button button-nelly">Nelly's Recipe</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/shrimp-vege.jpg" alt="">
+          <a href="#"><button class="button button-khalid">Khalid's Recipe</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/fluffy-pancakes.jpg" alt="">
+          <a href="#"><button class="button button-esther">Esther's Recipe</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/grilled-lemon-herb.jpg" alt="">
+          <a href="#"><button class="button button-grantone">Grantone's Recipe</button></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/shrimp-vege.jpg" alt="">
+          <a href="#"><button class="button button-kanja">Kanja's Recipe</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12">
         <div class="day-recipe">
           <h4>Recipe of the day!</h4>
           <!--<div class="tabs">-->
@@ -155,30 +179,31 @@
           <!--</div>-->
         </div>
       </div>
-      <div class="subscribe">
-        <h4>Subscribe to get our latest recipes and tips in your mail</h4>
-        <form id="subscribe_form">
-          <input id="subscribe_form_input" type="text" class="text-email" value="Your email" onfocus="this.value = '';" onblur="if(this.value === '') {this.value = 'Your email ';}">
-          <button type="submit" class="btn">Subscribe</button>
-        </form>
-        <div id="email-output">
 
-        </div>
-      </div>
+  <div class="container">
+    <div class="subscribe">
+      <h4>Subscribe to get our latest recipes and tips in your mail</h4>
+      <form id="subscribe_form">
+        <input id="subscribe_form_input" type="text" class="text-email" value="Your email" onfocus="this.value = '';" onblur="if(this.value === '') {this.value = 'Your email ';}">
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
       <div class="footerlogos">
-        <div class="row">
-          <div class="col-md-6 footerLogo">
-            <img src="">
-          </div>
+      <div class="row">
+        <div class="col-md-6 footerLogo">
+          <img src="assets/img/social.png">
         </div>
-        <p>Follow Good Food!</p>
-        <p>
-          <a href="#"><img src=""></a>
-          <a href="#"><img src=""></a>
-          <a href="#"><img src=""></a>
-          <a href="#"><img src=""></a>
-        </p>
       </div>
+      <p>Follow Good Food!</p>
+      <p>
+        <a href="#"><img src="images/facebook.png"></a>
+        <a href="#"><img src="images/twitter.png"></a>
+        <a href="#"><img src="images/instagram.png"></a>
+        <a href="#"><img src="images/pinterest.png"></a>
+      </p>
     </div>
   </div>
- </html>
+  </div>
+</body>
+
+</html>
