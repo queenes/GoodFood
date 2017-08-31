@@ -2,7 +2,7 @@ var recipe1 = {
   name: "nelly",
   food: "kimchi-fried-rice",
   image:"assets/img/kimchi-fried-rice.jpg",
-  instructions: "happy coocking ",
+  instructions: "happy cooking ",
 
 };
 var recipe2 = {
@@ -16,7 +16,7 @@ var recipe3 = {
   name: "esther",
   food: "fluffy-pancakes",
   image:"img/",
-  instructions: "eat some sanck",
+  instructions: "eat some snack",
 };
 var recipe4 = {
   name: "granton",
@@ -57,9 +57,6 @@ $(document).ready(function(){
     $(".thumbnail p.foods").text(foodObj.food);
     $(".thumbnail p.instruction").text(foodObj.instructions);
 
-
-
-
   });
 
 
@@ -85,8 +82,15 @@ $(document).ready(function(){
     $(".thumbnail p.dinner").text(foodObj.food);
     $(".thumbnail p.junk").text(foodObj.instructions);
   });
+});
 
 
+$(document).ready(function() {
+  $("form#subscribe_form").submit(function(event) {
+    event.preventDefault();
+    var emailAddress = $("#subscribe_form_input").val();
+    var notification = emailAddress + " has been successfully added to our email list. Thank you!";
+    $("#email-output").text(notification)
+  });
 
 });
-©
