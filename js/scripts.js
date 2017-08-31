@@ -79,6 +79,9 @@ $(document).ready(function(){
   });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
 
 
 $(document).ready(function() {
@@ -90,6 +93,7 @@ $(document).ready(function() {
   });
 
 });
+<<<<<<< HEAD
 
 var recipe_one = {
   food: "potaoes",
@@ -256,5 +260,7 @@ $(document).ready(function(){
     $(".thumbnail p.shrimps").text(foodObj.food);
     $(".thumbnail p.sea").text(foodObj.instructions);
   });
+=======
+>>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
 =======
 >>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
