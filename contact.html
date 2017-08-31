@@ -12,20 +12,25 @@
 </head>
 
 <body class="noScroll">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header"><a href="index.html" class="scroll">Good Food</a></div>
-        
-      </div>
-    </nav>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="scroll">Home</a></li>
+        <li><a href="recipes.html" class="scroll">Recipes</a></li>
+        <li><a href="breakfast.html" class="scroll">Recipe of the Day</a></li>
+        <li  class="active"><a href="#" class="scroll">Contact Us</a></li>
+
+      </ul>
+    </div>
+  </nav>
 
 
 <div class="parallax">
-<h1 class="simple" style="padding-right:500px;">Contact Us</h1>
+<h1 class="top-title" style="padding-left:60px;text-align:center;">Contact Us</h1>
 
 </div>
 <div class="container">
-<form action="/action_page.php">
+<form id="contact">
 
    <label for="fname">First Name</label>
    <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -35,13 +40,13 @@
 
    <label for="country">Country</label>
    <select id="country" name="country">
-     <option value="australia">Australia</option>
-     <option value="canada">Canada</option>
-     <option value="usa">USA</option>
+     <option value="kenya">Kenya</option>
+     <option value="uganda">Uganda</option>
+     <option value="tanzania">Tanzania</option>
    </select>
 
-   <label for="subject">Subject</label>
-   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+   <label for="subject">Comments</label>
+   <textarea id="subject" name="subject" placeholder="Your recipes are awesome!" style="height:200px"></textarea>
 
    <input type="submit" value="Submit">
 

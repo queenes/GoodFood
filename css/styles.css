@@ -75,6 +75,15 @@ body{
    font-weight: 100;
    text-align: center;
  }
+ 
+ .popular-text{
+   color: brown;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
+ 
  .inspiration{
    color: brown;
    font-family: 'Playball', cursive;
@@ -92,9 +101,7 @@ body{
 
 }
 .simple{
-  /*font-family: Urban Sketch;
-  src:url(../assets/fonts/Urban.ttf);*/
-    /*text-decoration: underline;*/
+
   font-size: 80px;
   font-family: 'Fredericka the Great', cursive;
   text-decoration-style: dashed;
@@ -103,22 +110,20 @@ body{
   
 }
 
-.carousel-top{
-      padding: 10px 0;
-      text-align: center;t 
-      /*padding-right: 400px;*/
-      padding-top: 100px;
-      font-family: 'Fredericka the Great', cursive;
-  }
 .carousel{
   border-style:double;
   border-color: white;
 }  
+
+.carousel-top {
+  padding: 10px 0;
+  text-align: center;
+  padding-right: 0;
+  padding-top: 0;;
+}
+
 .inspire{
-  /*border-style:double;
-  border-color: white;*/
-margin-left: 50px;
-padding-top: 100px;
+margin-left: 40px;
 height:  560px;
 
 }
@@ -182,13 +187,16 @@ height:  560px;
     width: 100%;
   }
   .caption {
-      position: absolute;
+      position:relative;
       top: 45%;
       left: 0;
       width: 100%;
-      color: white;
+      font-style:italic;
+      font-weight: bolder;
       margin: 0;
-      padding: 20px
+      font-family: fantasy;
+      padding: 20px;
+      background-color: white;
         
   }
 input[type=texts] {
@@ -246,12 +254,6 @@ li a {
   /*background-repeat: no-repeat;*/
 }
 
-.carousel-top {
-  padding: 10px 0;
-  text-align: center;
-  padding-right: 400px;
-  padding-top: 100px;
-}
 
 .text-email {
   color: white;
@@ -269,9 +271,9 @@ li a {
 
 .parallax {
     /* The image used */
-    background-image: url("../assets/img/fruit.jpg");
+    background-image: url("../assets/img/bg-header.jpg");
     /* Set a specific height */
-    min-height: 200px; 
+    min-height: 300px; 
     opacity: 0.8;
     
     /* Create the parallax scrolling effect */
