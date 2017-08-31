@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 
 
-  });
+ });
 
 
 });
@@ -58,6 +58,7 @@ $(document).ready(function(){
     $(".thumbnail p.instruction").text(foodObj.instructions);
 
   });
+
 
 
 });
