@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 
 
- });
+  });
 
 
 });
@@ -57,10 +57,7 @@ $(document).ready(function(){
     $(".thumbnail p.foods").text(foodObj.food);
     $(".thumbnail p.instruction").text(foodObj.instructions);
 
-
-
-
- });
+  });
 
 
 });
@@ -85,10 +82,8 @@ $(document).ready(function(){
     $(".thumbnail p.dinner").text(foodObj.food);
     $(".thumbnail p.junk").text(foodObj.instructions);
   });
-
-
-
 });
+
 
 $(document).ready(function() {
   $("form#subscribe_form").submit(function(event) {
