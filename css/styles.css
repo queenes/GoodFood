@@ -229,6 +229,42 @@ li a {
 
 .item {
   padding: 0px;
+  font-size: 40px;
+}
+
+.glyphicon-search {
+  float: right;
+}
+
+.container-subscribe {
+  /*background-color: #ff6e40;*/
+  background-image: url(../img/footer.jpg);
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  /*background-repeat: no-repeat;*/
+}
+
+.carousel-top {
+  padding: 10px 0;
+  text-align: center;
+  padding-right: 400px;
+  padding-top: 100px;
+}
+
+.text-email {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  opacity: 0.25;
+  padding: 0.5em 8em 0.5em 0em;
+  border: 0.5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.footerlogos {
+  padding-top: 20px;
 }
 
 .parallax {
