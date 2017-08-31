@@ -115,10 +115,11 @@ body{
       left: 0;
       width: 100%;
       color: white;
-  margin: 0;
-  padding: 20px
-  font-family: 'Fredericka the Great', cursive;
+      margin: 0;
+      padding: 20px
+      font-family: 'Fredericka the Great', cursive;
     }
+    
   h2 .image{
     position: absolute; 
     top: 200px; 
@@ -239,3 +240,5 @@ li a {
 .footerlogos {
   padding-top: 20px;
 }
+
+/* chalkboard css*/
