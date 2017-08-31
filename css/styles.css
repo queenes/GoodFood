@@ -74,6 +74,37 @@ body{
    font-weight: 100;
    text-align: center;
  }
+
+ .desc-text{
+   font-weight: 400;
+   font-size: 20px;
+   font-family: 'Josefin Sans', sans-serif;
+   text-transform: capitalize;
+   color: #333;
+   float: left;
+   
+ }
+ .goodF-text{
+   font-weight: 400;
+   font-size: 25px;
+   font-family: 'Playball', cursive;
+   text-transform: capitalize;
+   color: #333;
+   
+ }
+ 
+ .button{
+   border: 0;
+   margin: 0;
+   padding: 0;
+ }
+ .welcome-text{
+   color: #333;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
 .second-title {
     font-weight: 400;
     font-size: 30px;
@@ -84,9 +115,7 @@ body{
 
 }
 .simple{
-  /*font-family: Urban Sketch;
-  src:url(../assets/fonts/Urban.ttf);*/
-    /*text-decoration: underline;*/
+
   font-size: 80px;
   font-family: 'Fredericka the Great', cursive;
   text-decoration-style: dashed;
@@ -94,6 +123,10 @@ body{
   
 }
 
+
+  text-decoration: underline;
+
+}
 .carousel-top{
       padding: 10px 0;
       text-align: center;
@@ -107,7 +140,6 @@ body{
     font-size: 40px;
   }
 
-    
     .board{
       position: absolute;
       top: 45%;
@@ -130,12 +162,10 @@ body{
       
   }
   .thumbnail:hover{
-    /*opacity: 0.7;*/
     font-size: 30px;
     font-weight: 500;
     font-family:cursive;
     font-style: oblique;
-    /*background-color: #333;*/
     
       
   }
@@ -209,12 +239,6 @@ li a {
   /*background-repeat: no-repeat;*/
 }
 
-.carousel-top {
-  padding: 10px 0;
-  text-align: center;
-  padding-right: 400px;
-  padding-top: 100px;
-}
 
 .text-email {
   color: white;
@@ -251,13 +275,11 @@ li a {
 }
 
 .container-subscribe {
-  /*background-color: #ff6e40;*/
   background-image: url(../assets/img/footer.jpg);
   height: 350px;
   text-align: center;
   color: white;
   padding-top: 35px;
-  /*background-repeat: no-repeat;*/
 }
 
 
