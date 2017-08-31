@@ -1,5 +1,5 @@
 body{
-  
+  background-color: #f4e2ac;
 }
 
 .navbar-header{
@@ -84,17 +84,29 @@ body{
 
 }
 .simple{
-  text-decoration: underline;
-
+  /*font-family: Urban Sketch;
+  src:url(../assets/fonts/Urban.ttf);*/
+    /*text-decoration: underline;*/
+  font-size: 80px;
+  font-family: 'Fredericka the Great', cursive;
+  text-decoration-style: dashed;
+  color: brown;
+  
 }
+
 .carousel-top{
       padding: 10px 0;
       text-align: center;
       /*padding-right: 400px;*/
       padding-top: 100px;
-      /*float: left;*/
       font-family: 'Fredericka the Great', cursive;
   }
+  
+  .item {
+    padding: 0px;
+    font-size: 40px;
+  }
+
     
     .board{
       position: absolute;
