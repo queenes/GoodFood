@@ -1,22 +1,19 @@
 # GoodFood
 
-This is an app for best recipes where the subscriber don't need to think a lot of what to cook or what to eat..it's just go in see for yourself and decide.  
+This is a website that gives a user recipe ideas. Don't know what meal to make? No problem! Browse through our many recipes and be inspired to bring out the Chef in you!
 
 #### By
-Nelly Cheruiyot.
-Khalid Hashi.
-Esther Rao.
-Granton Mchana.
+* Nelly Cheruiyot.
+* Khalid Hashi.
+* Esther Rao.
+* Granton Mchana.
+
 ## Description
-WE have worked to the best of our knowledge to ensure that this application fits the need of the subscriber. We made it for the purpose of our consumers who may at time get a lot of problem to decide what to eat and how to cook or prepare it...our application does it all.The users can access the app online or can install it instead to let go every time they need it..
+WE have worked to the best of our knowledge to ensure that this application fits the need of the subscriber. We made it for the purpose of our consumers who may at times run of ideas on how to cook or prepare meals.The users can access the app online or can install it as a mobile app on their phones
 
 ## Setup/Installation Requirements
-  For Installation one needs;
-* Android users
-* Laptops users
-* Desktops users
-* Tablet users
-* Or any other information system can access or install the app.
+To access the web app, navigate to 
+* good-food.netlify.com
 
 ## Technologies Used
 
@@ -24,9 +21,10 @@ HTML
 CSS
 JAVASCRIPT
 jQuery
-## Support and contact details
 
-In case of any inquiry you can reach us through the communication sites we have provided.
+## Support and contact details
+In case of any inquiry you can reach us through the communication sites we have provided or drop us an email at info@goodfood.com
+
 ### License
 
 All rights reserved.
@@ -50,4 +48,4 @@ OUT OF OR IN CONNECTION WITH THIS APP OR THE USE OR OTHER DEALINGS IN
 THIS APP.
 
 Copyright (c) {2017} **{MORINGA SCHOOL}**
-This is a website that gives a user recipe ideas. Don't know what meal to make? No problem! Input the ingredient you have in mind and we will display to you the recipes based on your ingredient in mind
+
