@@ -78,6 +78,7 @@ $(document).ready(function(){
     $(".thumbnail p.junk").text(foodObj.instructions);
   });
 });
+<<<<<<< HEAD
 
 
 $(document).ready(function() {
@@ -234,10 +235,20 @@ $(document).ready(function(){
     $(".thumbnail p.dinner").text(foodObj.food);
     $(".thumbnail p.junk").text(foodObj.instructions);
   });
+=======
+>>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
 
 
+$(document).ready(function() {
+  $("form#subscribe_form").submit(function(event) {
+    event.preventDefault();
+    var emailAddress = $("#subscribe_form_input").val();
+    var notification = emailAddress + " has been successfully added to our email list. Thank you!";
+    $("#email-output").text(notification)
+  });
 
 });
+<<<<<<< HEAD
 $(document).ready(function(){
   $(".button-shrimps").click(function(event) {
     event.preventDefault()
@@ -245,3 +256,5 @@ $(document).ready(function(){
     $(".thumbnail p.shrimps").text(foodObj.food);
     $(".thumbnail p.sea").text(foodObj.instructions);
   });
+=======
+>>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
