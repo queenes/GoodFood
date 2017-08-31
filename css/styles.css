@@ -74,6 +74,13 @@ body{
    font-weight: 100;
    text-align: center;
  }
+ .inspiration{
+   color: brown;
+   font-family: 'Playball', cursive;
+   font-size: 50px;
+   font-weight: 100;
+   text-align: center;
+ }
 .second-title {
     font-weight: 400;
     font-size: 30px;
@@ -102,7 +109,18 @@ body{
       padding-top: 100px;
       font-family: 'Fredericka the Great', cursive;
   }
-  
+.carousel{
+  border-style:double;
+  border-color: white;
+}  
+.inspire{
+  /*border-style:double;
+  border-color: white;*/
+margin-left: 50px;
+padding-top: 100px;
+height:  560px;
+
+}
   .item {
     padding: 0px;
     font-size: 40px;
@@ -141,6 +159,23 @@ body{
     
       
   }
+  .dinner{
+    background-image: url(../assets/img/dinner.jpg);
+    background-size: cover;
+  }
+  .breakfast{
+    background-image: url(../assets/img/breakfast.jpeg);
+    background-size: cover;
+  }
+  .lunch{
+    background-image: url(../assets/img/lunch.jpg);
+    background-size: cover;
+  }
+  /*.dessert{
+    background-image: url(../assets/img/dessert.jpeg);
+    background-size: cover;
+  }*/
+  
   
   .search{
     width: 100%;
