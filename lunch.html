@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
@@ -10,31 +11,42 @@
   <script src="js/scripts.js"></script>
   <title>Good Food</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Lunch</h1>
-      <a href="index.html">Home</a>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid" style="padding-left:300px;">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="scroll">Home</a></li>
+        <li class="active"><a href="#" class="scroll">Recipe of the Day</a></li>
+        <li><a href="recipes.html" class="scroll">Recipes</a></li>
+        <li><a href="contact.html" class="scroll">Contact Us</a></li>
+
+      </ul>
     </div>
-    <div>
-      <h2>Mediterranean Turkey Burgers</h2>
-      <p><strong>Cook a simple meal in less than 40 minutes!</strong></p>
-      <img src="img/ln.jpg" alt="">
-      <div class="row">
-        <div class="col-md-3">
-        <p><strong>Total time: 35 min</strong></p>
-        <p>Prep: 25 min</p>
-        <p>Cook: 10 min</p>
-        </div>
-        <div class="col-md-3">
-        <p><strong>Yield: 4 servings</strong></p>
-        <p><strong>Level: Easy</strong></p>
+  </nav>
+  <div class="container">
+    <h1 class="simple" style="padding-right:500px;">Lunch</h1>
+    <h3>Checkout <a href="breakfast.html">Breakfast</a> | <a href="dinner.html">Dinner</a> | <a href="dessert.html">Dessert</a>  Recipes of the Day</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Mediterranean Turkey Burgers</h2>
+        <p><strong>Cook a simple meal in less than 40 minutes!</strong></p>
+        <img src="assets/img/ln.jpg" width="500px" height="300px">
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>Total time: 35 min</strong></p>
+            <p>Prep: 25 min</p>
+            <p>Cook: 10 min</p>
+          </div>
+          <div class="col-md-6">
+            <p><strong>Yield: 4 servings</strong></p>
+            <p><strong>Level: Easy</strong></p>
+          </div>
         </div>
       </div>
-      <br></br>
-      <div class="row">
-        <div class="col-md-6">
-        <h3>Ingredients</h3>
+
+      <div class="col-md-6">
+        <h3><strong>Ingredients</strong></h3>
         <ul>
           <li>Sauce of your choosing</li>
           <li>1/3 cup crumbled feta cheese (about 2 ounces)</li>
@@ -48,13 +60,39 @@
           <li>Lettuce and tomato slices, for topping</li>
           <li>Potato chips/fries, for serving</li>
         </ul>
-        </div>
-        <div class="col-md-6">
-          <h4>Directions:</h4>
-          <p>Combine the sauce, feta, cucumber, mint, half of the garlic, 1 tablespoon water, 1/2 teaspoon salt and a few grinds of pepper in a small bowl. Refrigerate until ready to serve.</p>
-          <p>Combine the turkey, the remaining garlic, 1 teaspoon salt and a few grinds of pepper in a medium bowl. Form into four 1/2-inch-thick patties. Heat a large nonstick skillet over medium-high heat. Add the olive oil, then add the patties and cook until browned and cooked through, 4 to 5 minutes per side. Transfer to a plate.</p>
-          <p>Spread sauce on the buns. Sandwich with the burgers; top with lettuce and tomato. Serve with potato chips.</p>
+      </div>
+      <div class="col-md-12">
+        <h4><strong>Directions:</strong></h4>
+        <p>Combine the sauce, feta, cucumber, mint, half of the garlic, 1 tablespoon water, 1/2 teaspoon salt and a few grinds of pepper in a small bowl. Refrigerate until ready to serve.</p>
+        <p>Combine the turkey, the remaining garlic, 1 teaspoon salt and a few grinds of pepper in a medium bowl. Form into four 1/2-inch-thick patties. Heat a large nonstick skillet over medium-high heat. Add the olive oil, then add the patties and cook
+          until browned and cooked through, 4 to 5 minutes per side. Transfer to a plate.</p>
+        <p>Spread sauce on the buns. Sandwich with the burgers; top with lettuce and tomato. Serve with potato chips.</p>
       </div>
     </div>
   </div>
- </html>
+
+
+  <div class="container-subscribe col-md-12">
+    <div class="subscribe">
+      <h4>Subscribe to get our latest recipes and tips in your mail!</h4>
+      <form id="subscribe_form">
+        <input id="subscribe_form_input" type="texts" class="text-email" value="Your email" onfocus="this.value = '';" onblur="if(this.value === '') {this.value = 'Your email ';}">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <div id="email-output">
+
+      </div>
+    </div>
+    <div class="footerLogo">
+      <p>Follow Us on Social Media!</p>
+      <p>
+        <a href="#"><img src="assets/img/facebook.png"></a>
+        <a href="#"><img src="assets/img/twitter.png"></a>
+        <a href="#"><img src="assets/img/pinterest.png"></a>
+
+      </p>
+    </div>
+  </div>
+  </div>
+
+</html>
