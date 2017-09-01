@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>categoreis of recipes/food</title>
+</head>
+
+<body class="bg_recipes">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid" style="padding-left:320px;">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="scroll">Home</a></li>
+        <li class="active"><a href="#" class="scroll">Recipes</a></li>
+        <li><a href="breakfast.html" class="scroll">Recipe of the Day</a></li>
+        <li><a href="contact.html" class="scroll">Contact Us</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <h1 class="welcome-text">Make A Meal With Some Popular Ingredients</h1>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/fries.jpg" alt="">
+          <button class="button button-khalid">Potatoes</button>
+          <p class="food goodF-text" style="font-size:20px;"></p>
+          <p class="ingredients"></p>
+          <p class="instructions"></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/biryani.jpg" alt="">
+          <button class="button button-esther">Rice</button>
+          <p class="diner goodF-text" style="font-size:20px;"></p>
+          <p class="rice_ingredients"></p>
+          <p class="rice"></p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <img src="assets/img/fried-chicken.jpg" alt="">
+          <button class="button button-grantone">Chicken</button>
+          <p class="dine goodF-text" style="font-size:20px;"></p>
+          <p class="chicken_ingredients"></p>
+          <p class="junk"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="assets/img/shrimps.jpg" alt="">
+        <button class="button button-shrimps">Shrimps</button>
+        <p class="shrimps goodF-text" style="font-size:20px;" ></p>
+        <p class="shrimps_ingredients"></p>
+        <p class="sea"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-subscribe col-md-12">
+    <div class="subscribe">
+      <h4>Subscribe to get our latest recipes and tips in your mail!</h4>
+      <form id="subscribe_form">
+        <input id="subscribe_form_input" type="texts" class="text-email" value="Your email" onfocus="this.value = '';" onblur="if(this.value === '') {this.value = 'Your email ';}">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <div id="email-output">
+
+      </div>
+    </div>
+    <div class="footerLogo">
+      <p>Follow Us on Social Media!</p>
+      <p>
+        <a href="#"><img src="assets/img/facebook.png"></a>
+        <a href="#"><img src="assets/img/twitter.png"></a>
+        <a href="#"><img src="assets/img/pinterest.png"></a>
+
+      </p>
+    </div>
+  </div>
+    </body>
+
+    </html>
