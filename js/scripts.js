@@ -1,103 +1,5 @@
-var recipe1 = {
-  name: "nelly",
-  food: "kimchi-fried-rice",
-  image:"assets/img/kimchi-fried-rice.jpg",
-  instructions: "happy cooking ",
-
-};
-var recipe2 = {
-  name: "khalid",
-  food: "chapati",
-  image: "images/chapti.jpg",
-  instructions: "ingredients: Serves:4  125g wholewhweatflour 1pinch salt  1 tablespoon olive oil 60ml water;     Method: prep:10minj Readyadyin:12min. " ,
-
-};
-var recipe3 = {
-  name: "esther",
-  food: "fluffy-pancakes",
-  image:"img/",
-  instructions: "eat some snack",
-};
-var recipe4 = {
-  name: "granton",
-  image:"img/",
-  food: "grilled-lemon-herb",
-  instructions: "cook it!",
-
-};
-
-
-var foods = [recipe1,recipe2,recipe3,recipe4,];
-
-
-$(document).ready(function(){
-  $(".button-khalid").click(function(event) {
-    event.preventDefault()
-    var foodObj = foods[1];
-    $(".thumbnail p.food").text(foodObj.food);
-    $(".thumbnail p.instructions").text(foodObj.instructions);
-
-
-
-
-  });
-
-
-});
-
-$(document).ready(function(){
-  $(".button-nelly").click(function(event) {
-    event.preventDefault()
-    var foodObj = foods[0];
-    $(".thumbnail p.foods").text(foodObj.food);
-    $(".thumbnail p.instruction").text(foodObj.instructions);
-
-  });
-
-
-});
-
-$(document).ready(function(){
-  $(".button-esther").click(function(event) {
-    event.preventDefault()
-    var foodObj = foods[2];
-    $(".thumbnail p.snack").text(foodObj.food);
-    $(".thumbnail p.lunch").text(foodObj.instructions);
-  });
-
-
-
-});
-
-
-$(document).ready(function(){
-  $(".button-grantone").click(function(event) {
-    event.preventDefault()
-    var foodObj = foods[3];
-    $(".thumbnail p.dinner").text(foodObj.food);
-    $(".thumbnail p.junk").text(foodObj.instructions);
-  });
-});
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
-
-
-$(document).ready(function() {
-  $("form#subscribe_form").submit(function(event) {
-    event.preventDefault();
-    var emailAddress = $("#subscribe_form_input").val();
-    var notification = emailAddress + " has been successfully added to our email list. Thank you!";
-    $("#email-output").text(notification)
-  });
-
-});
-<<<<<<< HEAD
-
 var recipe_one = {
   food: "potaoes",
-  image:"images/fries.jpg",
   instructions: "ingredients \
 potatoes ( potatoes with a high dry matter content, such as Russet or Maris Piper work best.)\
 cooking oil\
@@ -115,6 +17,9 @@ Transfer to another plate if necessary\
 Add salt and shake to ensure all French fries are evenly salted.",
 
 };
+
+
+
 var recipe_two = {
   food: "Rice",
   instructions:
@@ -145,7 +50,6 @@ var recipe_two = {
 };
 var recipe_three = {
   food: "chicken",
-  image:"img/fried-chicken",
   instructions: `Pinoy Style Fried Chicken\n
 Prep time\n
 10 mins\n
@@ -179,8 +83,7 @@ Serving size: 4`,
 };
 var recipe_four = {
   food:"shrimps",
-  image:"images/shrimps.jpg",
-  instructions:"INGREDIENTS\
+  instructions:`ingredients\
 8 tablespoons (1 stick) unsalted butter, divided\
 1 1/2 pounds medium shrimp, peeled and deveined\
 Kosher salt and freshly ground black pepper, to taste\
@@ -189,13 +92,13 @@ Kosher salt and freshly ground black pepper, to taste\
 Juice of 1 lemon, or more, to taste\
 2 tablespoons chopped fresh parsley leaves\
 
-DIRECTIONS\
+directions\
 Melt 2 tablespoons butter in a large skillet over medium high heat.\
 Add shrimp, salt and pepper, to taste. Cook, stirring occasionally, until pink, about 2-3 minutes; set aside.\
 Add garlic to the skillet, and cook, stirring frequently, until fragrant, about 1 minute. Stir in chicken stock and lemon juice. Bring to a boil; reduce heat and simmer until reduced by half, about 1-2 minutes. Stir in remaining 6 tablespoons butter, 1 tablespoon at a time, until melted and smooth.\
 Stir in shrimp and gently toss to combine.\
 Serve immediately, garnished with parsley leaves, if desired.\
-",
+`,
 };
 
 
@@ -206,10 +109,13 @@ $(document).ready(function(){
   $(".button-khalid").click(function(event) {
     event.preventDefault()
     var foodObj = recipes[0];
-    $(".thumbnail p.food").text(foodObj.food);
-    $(".thumbnail p.instructions").text(foodObj.instructions);
-
-
+    if ($('p.food').text() === "") {
+      $(".thumbnail p.food").text(foodObj.food);
+      $(".thumbnail p.instructions").text(foodObj.instructions);
+    } else {
+      $(".thumbnail p.food").text("");
+      $(".thumbnail p.instructions").text("");
+    }
 
 
   });
@@ -221,10 +127,13 @@ $(document).ready(function(){
   $(".button-esther").click(function(event) {
     event.preventDefault()
     var foodObj = recipes[1];
-    $(".thumbnail p.snack").text(foodObj.food);
-    $(".thumbnail p.lunch").text(foodObj.instructions);
-
-
+    if ($('p.breakfast').text() === "") {
+      $(".thumbnail p.breakfast").text(foodObj.food);
+      $(".thumbnail p.lunch").text(foodObj.instructions);
+    } else {
+      $(".thumbnail p.breakfast").text("");
+      $(".thumbnail p.lunch").text("");
+    }
 
 
   });
@@ -236,31 +145,34 @@ $(document).ready(function(){
   $(".button-grantone").click(function(event) {
     event.preventDefault()
     var foodObj = recipes[2];
-    $(".thumbnail p.dinner").text(foodObj.food);
-    $(".thumbnail p.junk").text(foodObj.instructions);
-  });
-=======
->>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
+    if ($('p.dinner').text() === "") {
+      $(".thumbnail p.dinner").text(foodObj.food);
+      $(".thumbnail p.junk").text(foodObj.instructions);
+    } else {
+      $(".thumbnail p.dinner").text("");
+      $(".thumbnail p.junk").text("");
+
+    }
 
 
-$(document).ready(function() {
-  $("form#subscribe_form").submit(function(event) {
-    event.preventDefault();
-    var emailAddress = $("#subscribe_form_input").val();
-    var notification = emailAddress + " has been successfully added to our email list. Thank you!";
-    $("#email-output").text(notification)
   });
 
 });
-<<<<<<< HEAD
+
 $(document).ready(function(){
   $(".button-shrimps").click(function(event) {
     event.preventDefault()
     var foodObj = recipes[3];
-    $(".thumbnail p.shrimps").text(foodObj.food);
-    $(".thumbnail p.sea").text(foodObj.instructions);
-  });
-=======
->>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
-=======
->>>>>>> bf2d7904056686ee9c15abc7d42a8a712321701e
+    if ($('p.shrimps').text() === "") {
+      $(".thumbnail p.shrimps").text(foodObj.food);
+      $(".thumbnail p.sea").text(foodObj.instructions);
+    } else {
+      $(".thumbnail p.shrimps").text("");
+      $(".thumbnail p.sea").text("");
+    }
+
+    });
+
+
+
+});
