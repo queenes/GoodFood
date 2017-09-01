@@ -22,25 +22,25 @@ Add salt and shake to ensure all French fries are evenly salted.",
 
 var recipe_two = {
   food: "Make Biryani With Rice",
-  ingredients: "What You Need\
-  measuring cup \
-  water \
-  saucepan with lid \
-  salt \
-  rice \
-  wooden spoon \
+  ingredients: "What You Need. \
+  measuring cup.  \
+  water. \
+  saucepan with lid.  \
+  salt.  \
+  rice.  \
+  wooden spoon.  \
   fork ",
   instructions:
   `
-  Boil water and add salt\
+  Boil water and add salt. \
   Pour water (for every cup of rice, use 1 3/4 cups of water) into a large saucepan with a tight-fitting lid. Bring to a boil. Mix 1 teaspoon salt into the water.\
-  Pour in rice\
+  Pour in rice. \
   Add it to the boiling water.\
-  Stir once, or just enough to separate the rice\
+  Stir once, or just enough to separate the rice. \
   Use a wooden spoon to separate any clumps. Don't over-stir: That can cause the rice to become sticky.\
-  Cover the pot and simmer\
+  Cover the pot and simmer.\
   Be sure the lid fits tightly on the pot. Turn down the heat to its lowest setting. Let rice simmer for about 18 minutes, then remove from heat and allow the rice to steam in the pot for another 5 minutes.\
-  Fluff rice with a fork\
+  Fluff rice with a fork.\
   Just before serving, gently fluff the rice with a fork to separate the grains.\
 
   Tip: Don't uncover the saucepan or stir the rice during cooking. If its done before you're ready to serve it, place a folded towel over the saucepan, replace the lid, and set aside. The towel will absorb excess moisture and condensation, helping prevent overcooked and mushy rice.\
@@ -72,12 +72,12 @@ Serving size: 4`,
 
 var recipe_four = {
   food:"Make Stir Fry Shrimps",
-  ingredients: "8 tablespoons (1 stick) unsalted butter, divided\
+  ingredients: "8 tablespoons (1 stick) unsalted butter, divided.\
   1 1/2 pounds medium shrimp, peeled and deveined\
   Kosher salt and freshly ground black pepper, to taste\
-  5 cloves garlic, minced \
-  1/4 cup chicken stock \
-  Juice of 1 lemon, or more, to taste\
+  5 cloves garlic, minced. \
+  1/4 cup chicken stock. \
+  Juice of 1 lemon, or more, to taste.\
   2 tablespoons chopped fresh parsley leaves",
   instructions:`
 
