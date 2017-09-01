@@ -177,10 +177,10 @@ height:  560px;
     background-image: url(../assets/img/lunch.jpg);
     background-size: cover;
   }
-  /*.dessert{
-    background-image: url(../assets/img/dessert.jpeg);
+  .dessert{
+    background-image: url(../assets/img/dessert.jpeg); 
     background-size: cover;
-  }*/
+  }
   
   
   .search{
