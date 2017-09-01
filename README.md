@@ -21,7 +21,7 @@ To access the web app, navigate to
 HTML
 CSS
 JAVASCRIPT
-jQuery
+
 
 ## Support and contact details
 In case of any inquiry you can reach us through the communication sites we have provided or drop us an email at info@goodfood.com
